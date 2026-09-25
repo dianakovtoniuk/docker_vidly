@@ -6,7 +6,7 @@ A movie rental web application built with React on the frontend, containerized w
 
 Vidly lets users browse, add, and manage a list of movies through a simple, clean interface. The project demonstrates a full deployment pipeline — from local Docker development to a production setup split across two hosting providers.
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Frontend:** React 17, Axios
 - **Build tool:** Create React App (`react-scripts`)
