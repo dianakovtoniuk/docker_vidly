@@ -5,17 +5,19 @@
   "engines": {
     "node": "20.x"
   },
+  "overrides": {
+    "postcss": "8.4.31"
+  },
   "dependencies": {
     "axios": "^0.21.1",
-    "caniuse-lite": "^1.0.30001580",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-scripts": "4.0.3",
+    "react-scripts": "4.0.2",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "set NODE_OPTIONS=--openssl-legacy-provider&& react-scripts start",
-    "build": "set NODE_OPTIONS=--openssl-legacy-provider&& react-scripts build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test --colors",
     "eject": "react-scripts eject"
   },
