@@ -7,15 +7,14 @@
   },
   "dependencies": {
     "axios": "^0.21.1",
-    "caniuse-lite": "^1.0.30001580",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "set NODE_OPTIONS=--openssl-legacy-provider&& react-scripts start",
-    "build": "set NODE_OPTIONS=--openssl-legacy-provider&& react-scripts build",
+    "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
+    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
     "test": "react-scripts test --colors",
     "eject": "react-scripts eject"
   },
@@ -41,6 +40,7 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "cross-env": "^7.0.3",
     "msw": "^0.26.2"
   }
 }
